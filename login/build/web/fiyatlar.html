@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>REZERVASYON</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link href="css/fiyatlar1.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+
+    <section class = "banner">
+            
+                <h2>AR-Bİ KİRALAMA</h2>
+                <div class = "card-container"></div>
+              
+                    <!-- image here -->
+                 
+                <div class = "card-content">
+                    <div
+                      <h2>REZERVASYON</h2>
+                    <form>
+                        <div class = "form-row">
+                            <select name = "days">
+                                <option value = "day-select">ALIS GÜNÜ</option>
+                                
+                                <option value = "monday">Pazartesi</option>
+                                <option value = "tuesday">Sali</option>
+                                <option value = "wednesday">Carsamba</option>
+                                <option value = "thursday">Persembe</option>
+                                <option value = "friday">Cuma</option>
+                                <option value = "saturday">Cumartesi</option>
+                               <option value = "sunday">Pazar</option>
+                            </select>
+
+                            <select name = "hours">
+                                <option value = "hour-select">Alis Saati</option>
+                                 <option value = "10">08: 00</option>
+                                 <option value = "10">09: 00</option>
+                                <option value = "10">10: 00</option>
+                                 <option value = "10">11: 00</option>
+                                <option value = "10">12: 00</option>
+                                 <option value = "10">13: 00</option>
+                                <option value = "10">14: 00</option>
+                                 <option value = "10">15: 00</option>
+                                <option value = "10">16: 00</option>
+                                 <option value = "10">17: 00</option>
+                                <option value = "10">18: 00</option>
+                                 <option value = "10">19: 00</option>
+                                <option value = "10">20: 00</option>
+                                 <option value = "10">21: 00</option>
+                                <option value = "10">22: 00</option>
+                                 <option value = "10">23: 00</option>
+                                  <option value = "10">24: 00</option>
+                            </select>
+                        </div>
+
+                        <div class = "form-row">
+                            <input type = "text" placeholder="ADINIZ SOYADINIZ">
+                            <input type = "text" placeholder="TELEFON NUMARANIZ">
+                        </div>
+
+                        <div class = "form-row">
+                            <input type = "number" placeholder="Kaç Gün Kiralanacak" min = "1">
+                           
+                                  <form action="maliyethesapla.jsp" method="post">
+                                      
+                                      
+                                    <button><a href="maliyethesapla.jsp">AR-BI KIRALA</a></button>
+                                    
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </body>
+</html> 
